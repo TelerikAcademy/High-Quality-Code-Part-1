@@ -2,9 +2,9 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Methods
 ## How to Design and Implement High-Quality Methods? Understanding Cohesion and Coupling
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic00.png" style="top:12.54%; left:5.61%; width:17.08%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic01.png" style="top:2.75%; left:32.75%; width:70.52%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic02.png" style="top:50.78%; left:50.53%; width:53.77%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:12.54%; left:5.61%; width:17.08%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:2.75%; left:32.75%; width:70.52%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:50.78%; left:50.53%; width:53.77%; z-index:-1" /> -->
 <div class="signature">
 	<p class="signature-course">- High-Quality Code</p>
 	<p class="signature-initiative">- Telerik Software Academy</p>
@@ -22,8 +22,8 @@
 - Loose Coupling
 - Methods Parameters
 - Pseudo Code
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic03.png" style="top:20.72%; left:66.43%; width:38.24%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic04.png" style="top:51.13%; left:28.07%; width:30.81%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:20.72%; left:66.43%; width:38.24%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:51.13%; left:28.07%; width:30.81%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -49,7 +49,7 @@
 -   int 21h
 - Jump
 - Imagine a long program consisting of instructions and jumps not organized in any structural way  
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic05.png" style="top:46.72%; left:53.33%; width:39.88%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:46.72%; left:53.33%; width:39.88%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -88,14 +88,14 @@
 <div class="fragment balloon" style="top:41.63%; left:44.08%; width:31.74%">What will happen if **a** **=** **b** **=** **c** **=** **-1**?</div>
 <div class="fragment balloon" style="top:30.37%; left:62.53%; width:34.44%">Result: **-294967296**</div>
 <div class="fragment balloon" style="top:69.87%; left:34.22%; width:64.35%">The same result as when **a** **=** **b** **=** **c** **=** **1** &rarr; both triangles have the same size.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic06.png" style="top:14.45%; left:99.81%; width:9.14%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic07.png" style="top:49.37%; left:99.78%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:14.45%; left:99.81%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:49.37%; left:99.78%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Good Methods – _Example_s
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic08.png" style="top:38.10%; left:99.38%; width:9.07%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic09.png" style="top:7.35%; left:99.38%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:38.10%; left:99.38%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:7.35%; left:99.38%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -103,13 +103,13 @@
 - Some methods do not correctly indicate errors
 - If the property name does not exist
   - A null reference exception will be thrown (implicitly) &rarr; it is not meaningful
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic10.png" style="top:21.49%; left:96.89%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:21.49%; left:96.89%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 
 - Use the correct exception handling instead:
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic11.png" style="top:20.28%; left:95.92%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:20.28%; left:95.92%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -125,8 +125,8 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Wrong Methods – _Example_s
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic12.png" style="top:7.90%; left:100.62%; width:9.14%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic13.png" style="top:42.59%; left:100.52%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:7.90%; left:100.62%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:42.59%; left:100.52%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -147,9 +147,9 @@
   - The entire input is passed through parameters and the entire output is returned as result
   - No external dependencies or side effects
   - _Example_s:
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic14.png" style="top:56.87%; left:97.31%; width:4.80%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic15.png" style="top:61.86%; left:97.62%; width:4.80%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic16.png" style="top:67.15%; left:97.62%; width:4.80%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:56.87%; left:97.31%; width:4.80%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:61.86%; left:97.62%; width:4.80%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:67.15%; left:97.62%; width:4.80%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -162,7 +162,7 @@
     - Send message headers
     - Send message body
     - Disconnect from the server
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic17.png" style="top:41.33%; left:96.86%; width:6.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:41.33%; left:96.86%; width:6.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -175,7 +175,7 @@
     - Build the report
     - Format the report as Excel worksheet
     - Display the Excel worksheet on the screen
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic18.png" style="top:35.72%; left:95.69%; width:5.86%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:35.72%; left:95.69%; width:5.86%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -187,8 +187,8 @@
     - Check for updates
     - Load all invoices from the database
     - Sequence of actions to handle the event
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic19.png" style="top:35.34%; left:96.65%; width:6.52%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic20.png" style="top:61.58%; left:96.65%; width:6.52%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:35.34%; left:96.65%; width:6.52%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic20.png" style="top:61.58%; left:96.65%; width:6.52%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -197,7 +197,7 @@
   - Performs a different operation depending on an input parameter
   - Incorrect example:
   - Can be acceptable in event handlers (e.g. the **KeyDown** event in Windows Forms)
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic21.png" style="top:35.26%; left:94.50%; width:7.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:35.26%; left:94.50%; width:7.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -210,7 +210,7 @@
     - Calculates the square root of given number
     - Converts given MP3 file into WMA format
     - Sends email to given customer
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic22.png" style="top:34.10%; left:94.78%; width:7.05%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:34.10%; left:94.78%; width:7.05%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -237,14 +237,14 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Coupling – _Example_
 - Intentionally increased coupling for more flexibility (.NET cryptography API):
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic23.png" style="top:64.08%; left:93.30%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic23.png" style="top:64.08%; left:93.30%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Loose Coupling – _Example_
 - To reduce coupling we can make **utility classes**
   - Hide the complex logic and provide simple straightforward interface (a.k.a. **façade**):
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic24.png" style="top:63.36%; left:93.33%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:63.36%; left:93.33%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -252,7 +252,7 @@
 - Passing parameters through class fields
   - Typical example of tight coupling
   - Don't do this unless you have a good reason!
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic25.png" style="top:28.39%; left:96.78%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic25.png" style="top:28.39%; left:96.78%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -260,7 +260,7 @@
 - Say, we have a large piece of software
   - We need to update subsystems and the subsystems are not really independent
   - E.g. a change in filtering affects sorting, etc:
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic26.png" style="top:40.67%; left:95.86%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic26.png" style="top:40.67%; left:95.86%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -299,9 +299,9 @@ Presentation Layer
   - This coupling is usual, do not worry too much
 - Method in a class is coupled to **static** methods, properties or constants in **external class**
   - This is normal, usually is not a problem
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic27.png" style="top:19.81%; left:98.69%; width:6.64%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic28.png" style="top:39.35%; left:98.69%; width:6.64%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic29.png" style="top:66.62%; left:98.69%; width:6.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic27.png" style="top:19.81%; left:98.69%; width:6.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic28.png" style="top:39.35%; left:98.69%; width:6.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic29.png" style="top:66.62%; left:98.69%; width:6.64%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -321,9 +321,9 @@ Presentation Layer
   - Put non-important optional parameters last
   - _Example_:
   - Incorrect example:
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic30.png" style="top:38.38%; left:99.38%; width:6.64%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic31.png" style="top:60.50%; left:100.88%; width:5.44%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic32.png" style="top:71.07%; left:100.88%; width:5.44%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:38.38%; left:99.38%; width:6.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic31.png" style="top:60.50%; left:100.88%; width:5.44%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:71.07%; left:100.88%; width:5.44%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -332,8 +332,8 @@ Presentation Layer
   - Use new variable instead
   - Incorrect example:
   - Correct example:
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic33.png" style="top:28.07%; left:97.83%; width:7.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic34.png" style="top:55.05%; left:97.27%; width:7.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic33.png" style="top:28.07%; left:97.83%; width:7.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic34.png" style="top:55.05%; left:97.27%; width:7.97%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -342,8 +342,8 @@ Presentation Layer
   - Use the same names and the same order in all methods
   - Incorrect example:
   - Output parameters should be put last
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic35.png" style="top:59.34%; left:101.40%; width:6.17%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic36.png" style="top:41.56%; left:101.40%; width:6.17%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic35.png" style="top:59.34%; left:101.40%; width:6.17%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic36.png" style="top:41.56%; left:101.40%; width:6.17%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -383,7 +383,7 @@ Presentation Layer
   - Routines coding
   - Code verification
   - Cleaning up unreachable 			 branches in a routine
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic37.png" style="top:33.16%; left:61.40%; width:43.87%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic37.png" style="top:33.16%; left:61.40%; width:43.87%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -480,10 +480,10 @@ http://academy.telerik.com
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - forums.academy.telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic38.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic39.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic40.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic41.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic38.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic39.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic40.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic41.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
 
 
 

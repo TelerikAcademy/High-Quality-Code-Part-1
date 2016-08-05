@@ -2,11 +2,11 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Code:Course Introduction
 ## Course Program, Evaluation, Exams, Resources
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic00.png" style="top:16.25%; left:8.42%; width:17.08%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic01.png" style="top:52.48%; left:70.17%; width:33.25%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic02.png" style="top:2.65%; left:85.39%; width:18.81%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic03.png" style="top:61.37%; left:48.60%; width:14.20%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic04.png" style="top:46.78%; left:27.11%; width:13.05%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:16.25%; left:8.42%; width:17.08%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:52.48%; left:70.17%; width:33.25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:2.65%; left:85.39%; width:18.81%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:61.37%; left:48.60%; width:14.20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:46.78%; left:27.11%; width:13.05%; z-index:-1" /> -->
 <div class="signature">
 	<p class="signature-course">- High-Quality Code</p>
 	<p class="signature-initiative">- Telerik Software Academy</p>
@@ -28,7 +28,7 @@
 - Resources for the Course
   - Recommended Books
 - Top 10 Students in Module 1 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic05.png" style="top:29.09%; left:63.62%; width:37.04%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:29.09%; left:63.62%; width:37.04%; z-index:-1" /> -->
 
 
 
@@ -37,7 +37,7 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Code
 ## Starting the Next (Second) Modulein the Telerik Software Academy
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic06.png" style="top:38.79%; left:33.68%; width:42.31%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:38.79%; left:33.68%; width:42.31%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -62,7 +62,7 @@
   - Practical exam (peer evaluation)
   - 2 test exams
   - Teamwork project
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic07.png" style="top:41.17%; left:77.41%; width:26.68%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:41.17%; left:77.41%; width:26.68%; z-index:-1" /> -->
 
 
 
@@ -71,9 +71,9 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality CodeCourse Program
 ## What Will Be Cover in the Course?
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic08.png" style="top:42.31%; left:41.17%; width:29.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic09.png" style="top:41.55%; left:81.70%; width:22.36%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic10.png" style="top:38.46%; left:6.55%; width:27.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:42.31%; left:41.17%; width:29.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:41.55%; left:81.70%; width:22.36%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:38.46%; left:6.55%; width:27.85%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -99,7 +99,7 @@
 - **Design Patterns**: the Classical GoF Patterns. Introduction to Design Patterns. Creational, Structural and Behavioral Patterns. 3 lectures
 - Second Test (40 questions for 50 minutes)
 - Fundamentals of **Software****Engineering**(Idea, Architecture, Design, Implementation, Testing, Deployment, Support). Development Methodologies. Scrum.Project Management
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic11.png" style="top:52.45%; left:82.34%; width:22.92%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:52.45%; left:82.34%; width:22.92%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -108,8 +108,8 @@
 - Exam Preparation
 - Teamwork Public Defense
 - Final Practical Exam (One big project for 8-10 hours)
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic12.png" style="top:40.55%; left:3.52%; width:48.48%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic13.png" style="top:40.55%; left:56.51%; width:49.02%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:40.55%; left:3.52%; width:48.48%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:40.55%; left:56.51%; width:49.02%; z-index:-1" /> -->
 
 
 
@@ -117,10 +117,10 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Trainers Team
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic14.png" style="top:30.98%; left:75.20%; width:27.64%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic15.png" style="top:8.57%; left:75.20%; width:27.64%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic16.png" style="top:52.01%; left:75.20%; width:27.64%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic17.png" style="top:21.15%; left:4.68%; width:64.77%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:30.98%; left:75.20%; width:27.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:8.57%; left:75.20%; width:27.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:52.01%; left:75.20%; width:27.64%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:21.15%; left:4.68%; width:64.77%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -134,7 +134,7 @@
   - Email: nikolay.kostov [at] telerik.com
   - Blog: http://nikolay.it
   - GitHub: https://github.com/NikolayIT
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic18.png" style="top:13.22%; left:84.21%; width:19.39%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:13.22%; left:84.21%; width:19.39%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -148,7 +148,7 @@
   - Email: doncho.minkov [at] telerik.com
   - Blog: http://minkov.it 
   - GitHub: https://github.com/Minkov 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic19.png" style="top:11.46%; left:83.27%; width:21.16%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:11.46%; left:83.27%; width:21.16%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -161,7 +161,7 @@
   - Champion in OOP and DSA
   - Blog: http://ivaylo.bgcoder.com/
   - GitHub: https://github.com/ivaylokenov
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic20.png" style="top:12.34%; left:87.02%; width:18.68%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic20.png" style="top:12.34%; left:87.02%; width:18.68%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -171,7 +171,7 @@
   - Graduate from the fourth seasonof Telerik Software Academy
   - Ex-developer, Sharepoint
   - E-mail: evlogi.hristov [at] telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic21.png" style="top:13.54%; left:82.56%; width:20.40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:13.54%; left:82.56%; width:20.40%; z-index:-1" /> -->
 
 
 
@@ -180,10 +180,10 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Evaluation 
 ## 3 exams?!
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic22.png" style="top:45.84%; left:14.97%; width:21.32%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic23.png" style="top:8.82%; left:70.44%; width:30.48%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic24.png" style="top:46.21%; left:56.14%; width:43.95%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic25.png" style="top:37.30%; left:48.41%; width:21.87%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:45.84%; left:14.97%; width:21.32%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic23.png" style="top:8.82%; left:70.44%; width:30.48%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:46.21%; left:56.14%; width:43.95%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic25.png" style="top:37.30%; left:48.41%; width:21.87%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -198,8 +198,8 @@
   - **Attendance** in class – **7.5****%**(15 lectures)
 - Bonuses
   - **Forums** **activity** – bonus up to **10****%**
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic26.png" style="top:11.49%; left:81.40%; width:22.92%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic27.png" style="top:38.08%; left:75.79%; width:28.21%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic26.png" style="top:11.49%; left:81.40%; width:22.92%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic27.png" style="top:38.08%; left:75.79%; width:28.21%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -213,9 +213,9 @@
     - Average total results
   - **Fail**
     - Low total results or 0 at the exam
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic28.png" style="top:48.48%; left:61.75%; width:14.10%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic29.png" style="top:22.04%; left:76.96%; width:23.36%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic30.png" style="top:61.71%; left:87.02%; width:13.22%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic28.png" style="top:48.48%; left:61.75%; width:14.10%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic29.png" style="top:22.04%; left:76.96%; width:23.36%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:61.71%; left:87.02%; width:13.22%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -227,7 +227,7 @@
   - Scanners are next to the doors
   - Use Student ID Card
   - Check in+/- 30 min.before / after lecture starts
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic31.png" style="top:57.30%; left:43.04%; width:60.48%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic31.png" style="top:57.30%; left:43.04%; width:60.48%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -276,14 +276,14 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Resources
 ## What We Need in Addition to this Course Content?
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic32.png" style="top:43.09%; left:7.49%; width:45.33%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic33.png" style="top:43.14%; left:83.62%; width:19.94%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic34.png" style="top:7.42%; left:33.06%; width:19.61%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic35.png" style="top:4.19%; left:58.09%; width:16.09%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic36.png" style="top:3.53%; left:75.48%; width:14.10%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic37.png" style="top:5.73%; left:94.27%; width:12.78%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic38.png" style="top:45.84%; left:58.90%; width:20.06%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic39.png" style="top:11.92%; left:9.79%; width:19.86%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:43.09%; left:7.49%; width:45.33%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic33.png" style="top:43.14%; left:83.62%; width:19.94%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic34.png" style="top:7.42%; left:33.06%; width:19.61%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic35.png" style="top:4.19%; left:58.09%; width:16.09%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic36.png" style="top:3.53%; left:75.48%; width:14.10%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic37.png" style="top:5.73%; left:94.27%; width:12.78%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic38.png" style="top:45.84%; left:58.90%; width:20.06%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic39.png" style="top:11.92%; left:9.79%; width:19.86%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -291,9 +291,9 @@
 - Code Complete, 2nd Edition, Steve McConnell, ISBN 0735619670, http://www.cc2e.com
 - Refactoring: Improving the Design of Existing Code, Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts, ISBN 0201485672, http://martinfowler.com/
 - Test Driven Development: By _Example_, Kent Beck, ISBN 0321146530
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic40.png" style="top:13.44%; left:5.59%; width:13.22%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic41.png" style="top:35.89%; left:5.59%; width:13.24%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic42.png" style="top:58.18%; left:5.47%; width:13.20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic40.png" style="top:13.44%; left:5.59%; width:13.22%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic41.png" style="top:35.89%; left:5.59%; width:13.24%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic42.png" style="top:58.18%; left:5.47%; width:13.20%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -303,7 +303,7 @@
   - Freely downloadable from: www.introprogramming.info
 - The C# programming tracks follows the book
 - High-quality code &rarr; chapter 21
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic43.png" style="top:18.57%; left:5.61%; width:20.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic43.png" style="top:18.57%; left:5.61%; width:20.97%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -315,7 +315,7 @@
 - The High-Quality Code official web site:
 - telerikacademy.com/Forum/Category/19/c#-qpc
 - http://academy.telerik.com/student-courses/programming/high-quality-code/
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic44.png" style="top:35.47%; left:83.50%; width:16.54%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic44.png" style="top:35.47%; left:83.50%; width:16.54%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -328,7 +328,7 @@
   - Presence cards with barcode
   - Reports about your results
 - telerikacademy.com/Courses/Courses/Details/244
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic45.png" style="top:39.12%; left:72.25%; width:31.56%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic45.png" style="top:39.12%; left:72.25%; width:31.56%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -338,8 +338,8 @@
   - Microsoft **Visual Studio****2013** or Visual Studio Community 2013 (free version of  VS 2013)
     - Visual Studio 2012, 2015 is also OK
   - .NET Framework 4.5 (included in Visual Studio)
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic46.png" style="top:58.18%; left:50.53%; width:51.79%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic47.png" style="top:58.18%; left:6.87%; width:37.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic46.png" style="top:58.18%; left:50.53%; width:51.79%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic47.png" style="top:58.18%; left:6.87%; width:37.30%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -354,16 +354,16 @@
 - cecunqk
 - mihaylov
 - todorm85
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic48.png" style="top:12.34%; left:40.23%; width:63.90%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic48.png" style="top:12.34%; left:40.23%; width:63.90%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Code:Course Introduction
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic49.png" style="top:49.37%; left:31.81%; width:38.79%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic50.png" style="top:22.08%; left:90.14%; width:14.10%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic51.png" style="top:54.87%; left:9.62%; width:14.10%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic52.png" style="top:50.60%; left:89.47%; width:12.04%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic53.png" style="top:11.46%; left:5.61%; width:28.52%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic49.png" style="top:49.37%; left:31.81%; width:38.79%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic50.png" style="top:22.08%; left:90.14%; width:14.10%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic51.png" style="top:54.87%; left:9.62%; width:14.10%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic52.png" style="top:50.60%; left:89.47%; width:12.04%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic53.png" style="top:11.46%; left:5.61%; width:28.52%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -376,10 +376,10 @@
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - telerikacademy.com/Forum/Home
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic54.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic55.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic56.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic57.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic54.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic55.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic56.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic57.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
 
 
 

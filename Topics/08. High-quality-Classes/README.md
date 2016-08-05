@@ -2,9 +2,9 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Classesand Class Hierarchies
 ## Best Practices in the Object-Oriented Design
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic00.png" style="top:53.10%; left:59.47%; width:43.40%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic01.png" style="top:49.16%; left:52.40%; width:17.08%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic02.png" style="top:18.03%; left:6.55%; width:14.24%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:53.10%; left:59.47%; width:43.40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:49.16%; left:52.40%; width:17.08%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:18.03%; left:6.55%; width:14.24%; z-index:-1" /> -->
 <div class="signature">
 	<p class="signature-course">- High-Quality Code</p>
 	<p class="signature-initiative">- Telerik Software Academy</p>
@@ -24,7 +24,7 @@
   - Class Methods, Constructors, Data
   - Good Reasons to Create a Class
 - Typical Mistakes to Avoid in OO Design
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic03.png" style="top:11.46%; left:79.24%; width:24.96%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:11.46%; left:79.24%; width:24.96%; z-index:-1" /> -->
 
 
 
@@ -33,7 +33,7 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Basic Principles
 ## Cohesion, Coupling,Inheritance and Polymorphism
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic04.png" style="top:12.34%; left:32.75%; width:44.08%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:12.34%; left:32.75%; width:44.08%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -50,12 +50,12 @@
 # Good and Bad Cohesion
 - Good: hard disk, CD-ROM, floppy
 - Bad: spaghetti code
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic05.png" style="top:20.51%; left:6.55%; width:26.22%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic06.png" style="top:20.28%; left:39.30%; width:27.89%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic07.png" style="top:21.28%; left:73.92%; width:29.09%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic08.png" style="top:52.01%; left:9.13%; width:17.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic09.png" style="top:52.89%; left:37.43%; width:18.84%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic10.png" style="top:45.51%; left:67.64%; width:33.35%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:20.51%; left:6.55%; width:26.22%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:20.28%; left:39.30%; width:27.89%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:21.28%; left:73.92%; width:29.09%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:52.01%; left:9.13%; width:17.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:52.89%; left:37.43%; width:18.84%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:45.51%; left:67.64%; width:33.35%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -65,7 +65,7 @@
     - **Sin()**, **Cos()**, **Asin()**
     - **Sqrt()**, **Pow()**, **Exp()**
     - **Math.PI**, **Math.E**
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic11.png" style="top:45.84%; left:96.31%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:45.84%; left:96.31%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -86,20 +86,20 @@
 - Tight Coupling
   - Where is the video adapter?
   - Can you change the video controller on this MB?
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic12.png" style="top:47.25%; left:70.17%; width:31.74%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic13.png" style="top:14.05%; left:70.17%; width:31.74%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic14.png" style="top:11.40%; left:96.37%; width:9.07%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic15.png" style="top:45.46%; left:96.37%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:47.25%; left:70.17%; width:31.74%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:14.05%; left:70.17%; width:31.74%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:11.40%; left:96.37%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:45.46%; left:96.37%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Loose Coupling – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic16.png" style="top:12.34%; left:92.49%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:12.34%; left:92.49%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Tight Coupling – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic17.png" style="top:13.22%; left:93.57%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:13.22%; left:93.57%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -151,7 +151,7 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Polymorphism – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic18.png" style="top:64.35%; left:91.43%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:64.35%; left:91.43%; width:9.07%; z-index:-1" /> -->
 
 
 
@@ -160,7 +160,7 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Classes
 ## How to Design High-Quality Classes? Abstraction, Cohesion and Coupling
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic19.png" style="top:12.55%; left:40.23%; width:29.09%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:12.55%; left:40.23%; width:29.09%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -175,14 +175,14 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Good Abstraction – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic20.png" style="top:13.35%; left:97.31%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic20.png" style="top:13.35%; left:97.31%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Bad Abstraction – _Example_
 <div class="fragment balloon" style="top:15.13%; left:50.34%; width:41.43%">Does this class really represents a "program"? Is this name good?</div>
 <div class="fragment balloon" style="top:61.01%; left:73.36%; width:27.33%">Does this class really have a single purpose?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic21.png" style="top:9.75%; left:99.78%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:9.75%; left:99.78%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -201,7 +201,7 @@
 - Beware of breaking the interface abstraction due to evolution
   - Don't add public members inconsistent with abstraction
   - _Example_: in class called **Employee** at some time we add method for accessing the DB with SQL
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic22.png" style="top:52.01%; left:93.57%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:52.01%; left:93.57%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -233,8 +233,8 @@
     - Skip calling ConnectToDB() because you just called FindEmployeeById() which should open connection
   - Another wrong example:
     - Use String.Empty instead of **Titles.NoTitle** because you know both values are the same
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic23.png" style="top:33.83%; left:101.78%; width:6.91%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic24.png" style="top:54.82%; left:101.78%; width:6.91%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic23.png" style="top:33.83%; left:101.78%; width:6.91%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:54.82%; left:101.78%; width:6.91%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -272,7 +272,7 @@
 
 - Prefer inheritance to extensive type checking:
 - Consider inheriting **Circle** and **Square** from **Shape** and override the abstract action **Draw()**
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic25.png" style="top:47.00%; left:91.63%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic25.png" style="top:47.00%; left:91.63%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -335,7 +335,7 @@
 # Namespaces
 - Group related classes together in namespaces
 - Follow consistent naming convention
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic26.png" style="top:27.08%; left:93.57%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic26.png" style="top:27.08%; left:93.57%; width:9.07%; z-index:-1" /> -->
 
 
 
@@ -344,9 +344,9 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Typical Mistakes to Avoid
 ## Lessons Learned from theOOP Exam at Telerik Software Academy
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic27.png" style="top:11.46%; left:31.05%; width:46.83%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic28.png" style="top:32.62%; left:44.83%; width:32.94%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic29.png" style="top:4.41%; left:58.01%; width:29.06%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic27.png" style="top:11.46%; left:31.05%; width:46.83%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic28.png" style="top:32.62%; left:44.83%; width:32.94%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic29.png" style="top:4.41%; left:58.01%; width:29.06%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -355,29 +355,29 @@
 - Bad example:
 - Good example:
 <div class="fragment balloon" style="top:19.00%; left:53.03%; width:43.20%">Singular: **Teacher** (a single teacher, not several).</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic30.png" style="top:58.40%; left:93.07%; width:9.07%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic31.png" style="top:31.55%; left:93.08%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:58.40%; left:93.07%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic31.png" style="top:31.55%; left:93.08%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Throwing an Exceptionwithout Parameters
 - Don't throw exception without parameters:
 <div class="fragment balloon" style="top:41.17%; left:71.40%; width:23.80%">Which parameter is **null** here?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic32.png" style="top:25.24%; left:99.78%; width:7.37%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:25.24%; left:99.78%; width:7.37%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Parameters Checked in the Getter
 - Check for invalid data in the **setters** and **constructors**, not in the getter!
 <div class="fragment balloon" style="top:29.46%; left:58.18%; width:25.52%">Put this check in the setter!</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic33.png" style="top:23.48%; left:96.37%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic33.png" style="top:23.48%; left:96.37%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Missing this for Local Members
 - Always use **this.XXX** instead of **XXX** to access members within the class:
 <div class="fragment balloon" style="top:54.23%; left:40.55%; width:27.96%">Use **this.Name**</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic34.png" style="top:24.31%; left:96.03%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic34.png" style="top:24.31%; left:96.03%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -387,9 +387,9 @@
 - Bad example:
 - Correct alternatives:
 <div class="fragment balloon" style="top:44.91%; left:67.88%; width:33.50%">Empty name is very bad idea! Use **null**.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic35.png" style="top:61.18%; left:97.00%; width:8.46%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic36.png" style="top:36.76%; left:97.40%; width:8.52%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic37.png" style="top:52.39%; left:97.05%; width:8.46%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic35.png" style="top:61.18%; left:97.00%; width:8.46%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic36.png" style="top:36.76%; left:97.40%; width:8.52%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic37.png" style="top:52.39%; left:97.05%; width:8.46%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -397,7 +397,7 @@
 - Don't use "**magic**" numbers
   - Especially when the class has members related to those numbers:
 <div class="fragment balloon" style="top:52.11%; left:49.78%; width:51.60%">This if statement is very wrong. **4** is the size of the **Wolf**, which has a **Size** property inherited from **Animal**. Why not use **this.Size** instead of **4**?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic38.png" style="top:30.85%; left:97.31%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic38.png" style="top:30.85%; left:97.31%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -405,64 +405,64 @@
 - Call the base constructor to **reuse** the object's state initialization code:
 <div class="fragment balloon" style="top:46.12%; left:68.76%; width:26.45%">**: base (name)**</div>
 <div class="fragment balloon" style="top:64.56%; left:46.97%; width:35.26%">Call the base constructor instead!</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic39.png" style="top:21.80%; left:96.03%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic39.png" style="top:21.80%; left:96.03%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Repeating Code in theBase and Child Classes
 - Never **copy-paste** the code of the base in the inherited class
 <div class="fragment balloon" style="top:49.95%; left:51.13%; width:48.12%">Why are these fields duplicated and not inherited?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic40.png" style="top:27.53%; left:96.03%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic40.png" style="top:27.53%; left:96.03%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Broken Encapsulation through a Parameterless Constructor
 - Be careful to keep fields well encapsulated
 <div class="fragment balloon" style="top:61.75%; left:50.25%; width:37.91%">Breaks encapsulation: **Name** & **Teacher** can be left **null**.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic41.png" style="top:24.64%; left:94.51%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic41.png" style="top:24.64%; left:94.51%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Coupling the Base Classwith Its Child Classes
 - Base class should **never** know about its children!
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic42.png" style="top:24.68%; left:92.63%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic42.png" style="top:24.68%; left:92.63%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Hidden Interpretation of Base Class as Its Specific Child Class
 - Don't define **IEnumerable<T>** fields and use them as **List<T>** (broken abstraction)
 <div class="fragment balloon" style="top:54.71%; left:59.26%; width:29.53%">Bad practice: hidden **List<T>**</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic43.png" style="top:28.07%; left:96.02%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic43.png" style="top:28.07%; left:96.02%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 
 - Use **List<T>** in the field and return it where **IEnumerable<T>** is required:
 <div class="fragment balloon" style="top:55.90%; left:58.51%; width:35.89%">This partially breaks encapsulation. Think about **cloning** to keep your items safe.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic44.png" style="top:26.96%; left:95.38%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic44.png" style="top:26.96%; left:95.38%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Repeating Code Not MovedUpper in the Class Hierarchy
 <div class="fragment balloon" style="top:41.40%; left:71.40%; width:24.68%">Repeating code</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic45.png" style="top:14.99%; left:97.31%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic45.png" style="top:14.99%; left:97.31%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 
 - When overriding methods, call the base method if you need its functionality, **don't copy-paste** it!
 <div class="fragment balloon" style="top:28.29%; left:71.40%; width:24.68%">Repeating code</div>
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic46.png" style="top:14.09%; left:97.31%; width:9.14%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic46.png" style="top:14.09%; left:97.31%; width:9.14%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Move the Repeating Code inUpper in the Class Hierarchy
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic47.png" style="top:16.05%; left:99.50%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic47.png" style="top:16.05%; left:99.50%; width:9.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic48.png" style="top:14.99%; left:99.50%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic48.png" style="top:14.99%; left:99.50%; width:9.07%; z-index:-1" /> -->
 
 
 
@@ -477,10 +477,10 @@
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - forums.academy.telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic49.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic50.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic51.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic52.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic49.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic50.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic51.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic52.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
 
 
 

@@ -2,11 +2,11 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Code Formatting
 ## Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic00.png" style="top:6.97%; left:57.65%; width:17.08%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic01.png" style="top:4.71%; left:90.39%; width:14.20%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic02.png" style="top:13.67%; left:7.96%; width:20.73%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic03.png" style="top:51.60%; left:80.59%; width:23.69%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic04.png" style="top:50.22%; left:50.53%; width:26.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:6.97%; left:57.65%; width:17.08%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:4.71%; left:90.39%; width:14.20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:13.67%; left:7.96%; width:20.73%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:51.60%; left:80.59%; width:23.69%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:50.22%; left:50.53%; width:26.45%; z-index:-1" /> -->
 <div class="signature">
 	<p class="signature-course">- High-Quality Code</p>
 	<p class="signature-initiative">- Telerik Software Academy</p>
@@ -25,7 +25,7 @@
 - Common Mistakes
 - Alignments
 - Automated Tools
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic05.png" style="top:26.45%; left:67.37%; width:38.24%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:26.45%; left:67.37%; width:38.24%; z-index:-1" /> -->
 
 
 
@@ -34,9 +34,9 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Code Formatting
 ## Why do we need it?How can white spaces and parenthesis help us?
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic06.png" style="top:57.16%; left:13.10%; width:9.70%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic07.png" style="top:45.12%; left:37.43%; width:18.51%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic08.png" style="top:36.32%; left:73.92%; width:25.56%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:57.16%; left:13.10%; width:9.70%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:45.12%; left:37.43%; width:18.51%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:36.32%; left:73.92%; width:25.56%; z-index:-1" /> -->
 
 
 
@@ -103,10 +103,10 @@ for (var i = 0; i < MaxElements; i++)
 x = (3 + 4) * (2 + 7);
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic09.png" style="top:10.89%; left:95.59%; width:9.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic10.png" style="top:30.70%; left:94.82%; width:9.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic11.png" style="top:57.16%; left:95.83%; width:9.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic12.png" style="top:65.15%; left:95.77%; width:9.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:10.89%; left:95.59%; width:9.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:30.70%; left:94.82%; width:9.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:57.16%; left:95.83%; width:9.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:65.15%; left:95.77%; width:9.45%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -171,8 +171,8 @@ private static ulong CalcFactorial(uint num)
 if (condition) { … }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic13.png" style="top:21.79%; left:93.83%; width:9.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic14.png" style="top:40.05%; left:93.83%; width:9.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:21.79%; left:93.83%; width:9.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:40.05%; left:93.83%; width:9.45%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -373,10 +373,10 @@ http://academy.telerik.com
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - forums.academy.telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic15.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic16.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic17.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic18.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
 
 
 
