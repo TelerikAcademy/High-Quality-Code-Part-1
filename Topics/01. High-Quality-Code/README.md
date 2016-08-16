@@ -1,15 +1,15 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # What Is High-Quality Programming Code?
-## Code Correctness, Readability, Maintainability
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:51.34%; left:52.40%; width:53.42%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:14.43%; left:6.55%; width:17.08%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:4.71%; left:92.63%; width:12.09%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:50.80%; left:66.06%; width:32.37%; z-index:-1" /> -->
+## Code Correctness, Readability, Maintainability  
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:-1%; left:87%; width:12.09%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:55%; left:68%; width:32.37%; z-index:-1" /> -->  
+
 <div class="signature">
-	<p class="signature-course">- High-Quality Code</p>
-	<p class="signature-initiative">- Telerik Software Academy</p>
-	<a href="- http://academy.telerik.com " class="signature-link">- http://academy.telerik.com </a>
+	<p class="signature-course">High-Quality Code</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="http://telerikacademy.com/ " class="signature-link">http://telerikacademy.com/</a>
 </div>
 
 
@@ -23,7 +23,8 @@
 - What is High-Quality Code?
 - Code Conventions
 - Managing Complexity
-- Characteristics of Quality Code
+- Characteristics of Quality Code  
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:44.96%; left:75.79%; width:28.21%; z-index:-1" /> -->
 
 
@@ -31,9 +32,10 @@
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# What is High-Quality Programming Code?
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:45.84%; left:61.75%; width:39.52%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:45.84%; left:8.42%; width:39.67%; z-index:-1" /> -->
+<!-- # What is High-Quality Programming Code? -->
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:55%; left:54%; width:30%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:55%; left:15%; width:30%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -52,12 +54,13 @@ static void Main()
 }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:14.52%; left:92.19%; width:14.99%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:14.52%; left:92.19%; width:14.99%; z-index:2; border: 1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 
-- Now the code is formatted, but is still unclear.
+<!-- # Why Quality Is Important? -->
+- Now the code is formatted, but still unclear.
 
 ```cs
 static void Main()
@@ -72,14 +75,13 @@ static void Main()
       Console.WriteLine("def ");
       Console.WriteLine("hoho ");
       for (int k = 0; k < i; k++,
-       Console.WriteLine(k - 'f')) ; 
+       Console.WriteLine(k - 'f')) ;
       break;
     }
     Console.WriteLine("loop!");
 }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:10.58%; left:79.93%; width:26.07%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -93,9 +95,10 @@ static void Main()
 - **Internal quality**
   - Is the code easy to read and understand?
   - Is the code well structured?
-  - Is the code easy to modify?
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:16.75%; left:87.95%; width:18.51%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:61.71%; left:86.52%; width:19.86%; z-index:-1" /> -->
+  - Is the code easy to modify?  
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:16.75%; left:86%; width:18.51%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:61.71%; left:86%; width:19.86%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -107,10 +110,11 @@ static void Main()
     - Well tested
   - Well architectured and designed
   - Well documented
-    - Self-documenting code 
-  - Well formatted
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:24.68%; left:77.80%; width:27.19%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:54.66%; left:80.02%; width:25.56%; z-index:-1" /> -->
+    - Self-documenting code
+  - Well formatted   
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:24.68%; left:76%; width:25%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:54.66%; left:76%; width:25%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -129,7 +133,8 @@ static void Main()
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Code Conventions
+<!-- # Code Conventions -->
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:38.79%; left:14.03%; width:28.21%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:38.91%; left:69.24%; width:28.21%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:50.25%; left:46.78%; width:14.10%; z-index:-1" /> -->
@@ -143,8 +148,9 @@ static void Main()
   - Naming conventions
     - **PascalCase** or **camelCase**, prefixes, suffixes, etc.
   - Best practices
-    - Classes, interfaces, enumerations, structures, inheritance, exceptions, properties, events, constructors, fields, operators, etc.
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:19.39%; left:75.19%; width:28.77%; z-index:-1" /> -->
+    - Classes, interfaces, enumerations, structures, inheritance, exceptions, properties, events, constructors, fields, operators, etc.  
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:18%; left:70%; width:25%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -163,16 +169,17 @@ static void Main()
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Managing Complexity
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:13.06%; left:70.17%; width:31.74%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:14.00%; left:10.29%; width:28.35%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:12.34%; left:29.01%; width:45.84%; z-index:-1" /> -->
+<!-- # Managing Complexity  -->
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:40%; left:75%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:45%; left:15%; width:15%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:40%; left:30%; width:36%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Managing Complexity
-- **Managing complexity**has central role in software construction
-  - Minimize the amount of complexity that anyone’s brain has to deal with at certain time 
+- **Managing complexity** has central role in software development
+  - Minimize the amount of complexity that anyone’s brain has to deal with at a certain time
 - Architecture and design challenges
   - Design modules and classes to reduce complexity
 - Code construction challenges
@@ -180,24 +187,24 @@ static void Main()
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+# Extras
 - Key to being an effective programmer:
   - Maximizing the portion of a program that you can **safely ignore**
     - While working on any one section of code
   - Most practices discussed later propose ways to achieve this important goal
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic20.png" style="top:53.77%; left:10.29%; width:85.51%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Code Quality: Characteristics
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:11.46%; left:19.59%; width:68.86%; z-index:-1" /> -->
+<!-- # Code Quality: Characteristics -->
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:11.46%; left:19.59%; width:68.86%; z-index:-1; opacity:0.6;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Key Characteristics of High-Quality Code
+# Key Characteristics of HQC - 1
 - **Correct behavior**
   - Conforming to the requirements
   - Stable, no hangs, no crashes
@@ -205,15 +212,16 @@ static void Main()
   - Correct response to incorrect usage
 - **Readable** – easy to read
 - **Understandable** – self-documenting
-- **Maintainable** – easy to modify when required
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:17.28%; left:86.08%; width:19.39%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic23.png" style="top:41.02%; left:87.02%; width:17.63%; z-index:-1" /> -->
+- **Maintainable** – easy to modify when required  
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:16%; left:84%; width:19.39%; z-index:-1" /> -->
+
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+# Key Characteristics of HQC - 2
 - Good **identifiers' names**
-  - Good names for variables, constants, methods, parameters, classes, structures, fields, properties, interfaces, structures, enumerations, namespaces, 
+  - Good names for variables, constants, methods, parameters, classes, structures, fields, properties, interfaces, structures, enumerations, namespaces,
 - High-quality **classes**, interfaces and class hierarchies
   - Good abstraction and encapsulation
   - Simplicity, reusability, minimal complexity
@@ -221,7 +229,7 @@ static void Main()
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+# Key Characteristics of HQC - 3
 - High-quality **methods**
   - Reduced complexity, improved readability
   - Good method names and parameter names
@@ -230,39 +238,42 @@ static void Main()
   - Minimal variable scope, span, live time
   - Simple expressions
   - Correctly used constants
-  - Correctly organized data
+  - Correctly organized data  
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:57.30%; left:78.60%; width:25.56%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+# Key Characteristics of HQC - 4
 - Correctly used **control structures**
   - Simple statements
   - Simple conditional statements and simple conditions
   - Well organized loops without deep nesting
 - Good code **formatting**
   - Reflecting the logical structure of the program
-  - Good formatting of classes, methods, blocks, whitespace, long lines, alignment, etc.
+  - Good formatting of classes, methods, blocks, whitespace, long lines, alignment, etc.  
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic25.png" style="top:16.75%; left:80.47%; width:24.89%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+# Key Characteristics of HQC - 5
 - High-quality **documentation** and comments
   - Effective comments
   - Self-documenting code
-- **Defensive programming**and exceptions
+- **Defensive programming** and exceptions
   - Ubiquitous use of defensive programming
   - Well organized exception handling
 - Code tuning and **optimization**
   - Quality code instead of good performance
-  - Code performance when required
+  - Code performance when required  
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic26.png" style="top:21.54%; left:79.53%; width:25.56%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic27.png" style="top:49.37%; left:87.02%; width:17.63%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+# Key Characteristics of HQC - 6
 - Following the corporate **code conventions**
   - Formatting and style, naming, etc.
   - Domain-specific best practices
@@ -271,13 +282,14 @@ static void Main()
   - Well designed **unit tests**
     - Tests for all scenarios
     - High code coverage
-  - Passed code reviews and inspections
+  - Passed code reviews and inspections  
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic28.png" style="top:31.74%; left:82.34%; width:21.16%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# What Is High-Quality Programming Code?
-- Questions?
+<!-- section start -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Questions? -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -289,12 +301,7 @@ static void Main()
   - Telerik Academy @ Facebook
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic29.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic31.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
-
-
-
-
+    - forums.academy.telerik.com  
+		
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:38%; left:63%; width:36.30%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:19%; left:84%; width:13.01%; z-index:-1" /> -->
