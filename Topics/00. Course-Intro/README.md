@@ -12,19 +12,18 @@
 </div>
 
 
-
-
 <!-- section start -->
 <!-- attr: { id:'', showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
 - [Next steps in Telerik Software Academy](#nextsteps)
 - [The High-Quality Code Course Program](#hqcprogram)
 - [Evaluation](#evaluation)
-  - [Exam](#evaluation)
+  - [Exam]()
 - [Resources for the Course](#resources)
   - [Recommended Books](#recommendedbooks)  
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:29.09%; left:63.62%; width:37.04%; z-index:-1" /> -->
+
 
 
 
@@ -34,6 +33,7 @@
 <!-- # <a id="nextsteps"></a> High-Quality Code -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:42%; left:31%; width:42.31%; z-index:-1; border: 1px solid white; border-radius: 5px;" /> -->
+
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -95,7 +95,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:43%; left:28%; width:43.95%; z-index:-1; border: 1px solid white; border-radius: 5px;"/> -->
 
 
-<!-- attr: { id='evaluation' showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { id:'evaluation', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="evaluation"></a>HQC – Evaluation
 - Evaluation components
   - **Test** – **85%**
@@ -172,7 +172,7 @@ Criteria for pass / pass with excellence / fail
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic39.png" style="top:11.92%; left:9.79%; width:19.86%; z-index:-1" /> -->
 
 
-<!-- attr: { id='recommendedbooks', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { id:'recommendedbooks', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="recommendedbooks"></a>Recommended Books
 - Code Complete, 2nd Edition, Steve McConnell, ISBN 0735619670, http://www.cc2e.com
 - Refactoring: Improving the Design of Existing Code, Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts, ISBN 0201485672, http://martinfowler.com/
