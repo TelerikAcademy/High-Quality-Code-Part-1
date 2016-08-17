@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
-# Code Formatting
+<!-- # Code Formatting -->
 ## Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:65%; left:85%; width:14%; z-index:-1" /> -->
@@ -39,7 +39,7 @@
 
 
 <!-- attr: { id:'formattingcode', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="formattingcode"></a> Code Formatting
+<!-- # <a id="formattingcode"></a> Code Formatting -->
 - Good formatting goals
   - To improve code readability
   - To improve code maintainability
@@ -122,9 +122,9 @@ public class Factorial
 }
 ```
 
-<div class="fragment balloon" style="top:63%; left:47.60%; width:37.02%">Leave empty line between methods</div>
+<!-- <div class="fragment balloon" style="top:63%; left:47.60%; width:37.02%">Leave empty line between methods</div>
 <div class="fragment balloon" style="top:43%; left:49.11%; width:52.27%">Always use **{** and **}** after **if**</div>
-<div class="fragment balloon" style="top:43%; left:49.11%; width:52.27%">(there is no space to do it here)</div>
+<div class="fragment balloon" style="top:43%; left:49.11%; width:52.27%">(there is no space to do it here)</div> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -206,9 +206,9 @@ private List<Report> PrepareReports()
 }
 ```
 
-<div class="fragment balloon" style="top:47%; left:60%; width:23.80%">Empty line</div>
+<!-- <div class="fragment balloon" style="top:47%; left:60%; width:23.80%">Empty line</div>
 <div class="fragment balloon" style="top:70%; left:60%; width:23.80%">Empty line</div>
-<div class="fragment balloon" style="top:90%; left:50%; width:23.80%">Empty line</div>
+<div class="fragment balloon" style="top:90%; left:50%; width:23.80%">Empty line</div> -->
 
 
 <!-- attr: { id:'formattingtypes',showInPresentation:true, hasScriptWrapper:true } -->
@@ -286,9 +286,9 @@ for (int i = 0; i < 10;) {
 }
 ```
 
-<div class="fragment balloon" style="top:35%; left:65.50%; width:23.80%">The **{** and **}** are missing</div>
+<!--  <div class="fragment balloon" style="top:35%; left:65.50%; width:23.80%">The **{** and **}** are missing</div>
 <div class="fragment balloon" style="top:47%; left:67.39%; width:32.22%">Never put multiple statements on the same line!</div>
-<div class="fragment balloon" style="top:60%; left:66.12%; width:33.50%">In C# the **{** should be on the next line</div>
+<div class="fragment balloon" style="top:60%; left:66.12%; width:33.50%">In C# the **{** should be on the next line</div> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -380,7 +380,7 @@ public void NotCool()
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Code Formatting
+<!-- # Code Formatting
 
  - Any questions?
   - Any questions?
@@ -396,7 +396,7 @@ public void NotCool()
 					  - Any questions?
 						 - Any questions?
 						  - Any questions?
-							 - Any questions?
+							 - Any questions? -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -408,6 +408,7 @@ public void NotCool()
   - Telerik Academy @ Facebook
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+    - forums.academy.telerik.com  
+		
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:37%; left:60%; width:35%; z-index:-1; border: 1px solid white; border-radius: 5px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:19.00%; left:82%; width:13.01%; z-index:-1" /> -->
