@@ -17,12 +17,12 @@
 <!-- section start -->
 <!-- attr: { id:'', showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- Why Do We Need Code Formatting?
-- Formatting Methods
-- Formatting Types
-- Common Mistakes
-- Alignments
-- Automated Tools  
+- [Why Do We Need Code Formatting?](#formattingcode)
+- [Formatting Methods](#formattingmethods)
+- [Formatting Types](#formattingtypes)
+- [Common Mistakes](#commonmistakes)
+- [Alignments](#alignments)
+- [Automated Tools](#automatedtools)  
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:25%; left:60%; width:37%; z-index:-1; border:1px solid white;border-radius:5px;" /> -->
 
@@ -30,16 +30,16 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Code Formatting
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+#   Code Formatting
 ## Why do we need it? How can white spaces and parenthesis help us?
 
 
 
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Code Formatting
+<!-- attr: { id:'formattingcode', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="formattingcode"></a> Code Formatting
 - Good formatting goals
   - To improve code readability
   - To improve code maintainability
@@ -101,8 +101,8 @@ x = (3 + 4) * (2 + 7);
 ```
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Empty Lines between <br /> Methods
+<!-- attr: { id:'formattingmethods',showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="formattingmethods"></a> Empty Lines between <br /> Methods
 - Use empty line for separation between methods:
 
 ```cs
@@ -146,8 +146,8 @@ public class Indentation_Example_
 <div class="fragment balloon" style="top:72.11%; left:21.82%; width:49.37%">Method body is also indented</div>
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Brackets in Methods Declaration
+<!-- attr: { id:'commonmistakes', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="commonmistakes"></a> Brackets in Methods Declaration
 - Brackets in the method declaration should be formatted as follows:
 - Don't  use spaces between the brackets:
 - The same applies for **if**-conditions and **for**-loops:
@@ -211,8 +211,8 @@ private List<Report> PrepareReports()
 <div class="fragment balloon" style="top:90%; left:50%; width:23.80%">Empty line</div>
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Formatting Types
+<!-- attr: { id:'formattingtypes',showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="formattingtypes"></a> Formatting Types
 - Formatting classes / structures / interfaces / enumerations
   - Indent the class body with a single [Tab]
   - Use the following order of definitions:
@@ -347,8 +347,8 @@ public void GetAllAbstractPaintings()
 - In JavaScript use double [Tab] in the carried long lines:
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Alignments
+<!-- attr: { id:'alignments', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="alignments"></a> Alignments
 - All types of alignments are considered harmful
   - Alignments are hard-to-maintain!
   - Modifying one line of code shouldn’t require modifying several others
@@ -365,8 +365,8 @@ public void NotCool()
 
 ```
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Automated Tools
+<!-- attr: {  id:'automatedtools',showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="automatedtools"></a> Automated Tools
 - Take advantage of your IDE to help formatting the code **[Ctrl+K+D]**
   - Automatic alignment
   - Indentation
