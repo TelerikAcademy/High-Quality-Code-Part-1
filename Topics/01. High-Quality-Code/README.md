@@ -18,12 +18,12 @@
 <!-- section start -->
 <!-- attr: { id:'', showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- Why Quality Is Important?
-- Software Quality: External and Internal
-- What is High-Quality Code?
-- Code Conventions
-- Managing Complexity
-- Characteristics of Quality Code  
+- [Why Quality Is Important](#qualityimportance)?
+- [Software Quality: External and Internal](#softwarequality)
+- [What is High-Quality Code?](#whatishqc)
+- [Code Conventions](#conventions)
+- [Managing Complexity](#complexity)
+- [Characteristics of Quality Code](#characteristics)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:44.96%; left:75.79%; width:28.21%; z-index:-1" /> -->
 
@@ -38,8 +38,8 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:55%; left:15%; width:30%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Why Quality Is Important?
+<!-- attr: {id:'qualityimportance', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="recommendedbooks"></a> Why Quality Is Important?
 - What does this code do? Is it correct?
 
 ```cs
@@ -84,8 +84,8 @@ static void Main()
 
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Software Quality
+<!-- attr: { id:'softwarequality', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="softwarequality"></a> Software Quality
 - **External quality**
   - Does the software behave correctly?
   - Are the produced results correct?
@@ -101,8 +101,8 @@ static void Main()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:61.71%; left:86%; width:19.86%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# What is High-Quality Programming Code?
+<!-- attr: { id:'whatishqc', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="whatishqc"></a> What is High-Quality Programming Code?
 - **High-quality programming code:**
   - Easy to read and understand
     - Easy to modify and maintain
@@ -140,8 +140,8 @@ static void Main()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:50.25%; left:46.78%; width:14.10%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Code Conventions
+<!-- attr: { id:'conventions', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="conventions"></a> Code Conventions
 - **Code conventions** are formal guidelines about the style of the source code:
   - Code formatting conventions
     - Indentation, whitespace, etc.
@@ -176,8 +176,8 @@ static void Main()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:40%; left:30%; width:36%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Managing Complexity
+<!-- attr: { id:'complexity', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="complexity"></a>Managing Complexity
 - **Managing complexity** has central role in software development
   - Minimize the amount of complexity that anyone’s brain has to deal with at a certain time
 - Architecture and design challenges
@@ -203,8 +203,8 @@ static void Main()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:11.46%; left:19.59%; width:68.86%; z-index:-1; opacity:0.6;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Key Characteristics of HQC - 1
+<!-- attr: { id:'characteristics', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="characteristics"></a> Key Characteristics of HQC - 1
 - **Correct behavior**
   - Conforming to the requirements
   - Stable, no hangs, no crashes
@@ -302,6 +302,6 @@ static void Main()
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - forums.academy.telerik.com  
-		
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:38%; left:63%; width:36.30%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:19%; left:84%; width:13.01%; z-index:-1" /> -->

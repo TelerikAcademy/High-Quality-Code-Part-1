@@ -1,7 +1,8 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Code Formatting
-## Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+## Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:6.97%; left:57.65%; width:17.08%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:4.71%; left:90.39%; width:14.20%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:13.67%; left:7.96%; width:20.73%; z-index:-1" /> -->
@@ -123,7 +124,7 @@ public class Factorial
     else
       return num * CalcFactorial(num - 1);
   }
-    
+
   static void Main()
   {
     ulong factorial = CalcFactorial(5);
@@ -240,7 +241,7 @@ private List<Report> PrepareReports()
 public class Dog
 {
     // Static variables
-    public const string SPECIES = 
+    public const string SPECIES =
         "Canis Lupus Familiaris";
     // Instance variables
     private int age;
@@ -249,7 +250,7 @@ public class Dog
     {
         this.Name = name;
        this.age = age;
-    } 
+    }
 ```
 
 
@@ -377,7 +378,3 @@ http://academy.telerik.com
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
-
-
-
-
