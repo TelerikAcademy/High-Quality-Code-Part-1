@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code.Formatting.StyleCop", "Code.Formatting.StyleCop\Code.Formatting.StyleCop.csproj", "{CBC2FA16-C10C-4AC3-A6B8-3F4940F836DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code.Formatting.BreakingLongLines", "Code.Formatting.BreakingLongLines\Code.Formatting.BreakingLongLines.csproj", "{AAB9F401-022D-4786-8695-849452BFE519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC2FA16-C10C-4AC3-A6B8-3F4940F836DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC2FA16-C10C-4AC3-A6B8-3F4940F836DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC2FA16-C10C-4AC3-A6B8-3F4940F836DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC2FA16-C10C-4AC3-A6B8-3F4940F836DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB9F401-022D-4786-8695-849452BFE519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB9F401-022D-4786-8695-849452BFE519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB9F401-022D-4786-8695-849452BFE519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB9F401-022D-4786-8695-849452BFE519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
