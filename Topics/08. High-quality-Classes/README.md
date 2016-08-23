@@ -182,7 +182,6 @@ Console.WriteLine(MathParams.result);
   - Common logic is taken to the base class
   - Specific logic is implemented in the derived class in a overridden method
 
-
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Polymorphism in C# and JS
 - In C# polymorphism is implemented through:
@@ -219,12 +218,12 @@ public class Trainer : Person
     Console.Write("I am a trainer.");
   }
 }
+```
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Classes
 ## How to Design High-Quality Classes? Abstraction, Cohesion and Coupling
-
 
 <!-- attr: { id:'hqclasses', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="hqclasses"></a> High-Quality Classes: Abstraction
@@ -234,7 +233,6 @@ public class Trainer : Person
   - Does the class name well describe its purpose?
   - Does the class define clear and easy to understand public interface?
   - Does the class hide all its implementation details?
-
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Good Abstraction – _Example_
