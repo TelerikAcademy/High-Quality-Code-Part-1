@@ -1,78 +1,84 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
-# High-Quality Classesand Class Hierarchies
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
+# High-Quality Classes and Class Hierarchies
 ## Best Practices in the Object-Oriented Design
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic00.png" style="top:53.10%; left:59.47%; width:43.40%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:49.16%; left:52.40%; width:17.08%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:18.03%; left:6.55%; width:14.24%; z-index:-1" /> -->
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic01.png" style="top:57%; left:69%; width:26.25%; z-index:-1;" /> -->
+
 <div class="signature">
-	<p class="signature-course">- High-Quality Code</p>
-	<p class="signature-initiative">- Telerik Software Academy</p>
-	<a href="- http://academy.telerik.com " class="signature-link">- http://academy.telerik.com </a>
+	<p class="signature-course"> High-Quality Code</p>
+	<p class="signature-initiative"> Telerik Software Academy</p>
+	<a href="http://telerikacademy.com" class="signature-link"> http://telerikacademy.com </a>
 </div>
 
-
-
-
 <!-- section start -->
-<!-- attr: { id:'', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- Basic Principles
+- [Basic Principles](#basics)
   - Cohesion, Coupling,Inheritance, Polymorphism
-- High-Quality Classes
+- [High-Quality Classes](#hqclasses)
   - Good Abstraction, Correct Encapsulation, Correct Inheritance
   - Class Methods, Constructors, Data
   - Good Reasons to Create a Class
-- Typical Mistakes to Avoid in OO Design
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:11.46%; left:79.24%; width:24.96%; z-index:-1" /> -->
+- [Typical Mistakes to Avoid in OO Design](#mistakes)
 
-
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic03.png" style="top:47.46%; left:83.24%; width:24.96%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Basic Principles
 ## Cohesion, Coupling,Inheritance and Polymorphism
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic04.png" style="top:12.34%; left:32.75%; width:44.08%; z-index:-1" /> -->
 
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Cohesion
+<!-- attr: {id:'basics', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="basics"></a> Cohesion
 - **Cohesion** measures how closely are all the routines in a class/module
   - Cohesion must be **strong**
   - Classes must contain strongly related functionality and aim for **single purpose**
-- **Strong cohesion** is a useful tool for managing complexity 
+- **Strong cohesion** is a useful tool for managing complexity
   - Well-defined abstractions keep cohesion strong
   - Bad abstractions have weak cohesion
-
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Good and Bad Cohesion
 - Good: hard disk, CD-ROM, floppy
 - Bad: spaghetti code
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:20.51%; left:6.55%; width:26.22%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:20.28%; left:39.30%; width:27.89%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:21.28%; left:73.92%; width:29.09%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:52.01%; left:9.13%; width:17.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:52.89%; left:37.43%; width:18.84%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:45.51%; left:67.64%; width:33.35%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic05.png" style="top:29%; left:6.55%; width:26.22%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic06.png" style="top:29%; left:39.30%; width:27.89%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic07.png" style="top:29%; left:73.92%; width:29.09%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic08.png" style="top:60%; left:9.13%; width:17.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic09.png" style="top:60%; left:42.43%; width:18.84%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic10.png" style="top:60%; left:74.64%; width:26.35%; z-index:-1" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Strong Cohesion
 - Strong cohesion example
-  - Class **System.****Math**
-    - **Sin()**, **Cos()**, **Asin()**
-    - **Sqrt()**, **Pow()**, **Exp()**
-    - **Math.PI**, **Math.E**
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:45.84%; left:96.31%; width:9.07%; z-index:-1" /> -->
+  - Class `System.Math`
+    - Sin(), Cos(), Asin()
+    - Sqrt(), Pow(), Exp()
+    - Math.PI, Math.E
+
+```cs
+float sideA = 40f, sideB = 69f;
+float angleAB = Math.PI / 3;
+float sideC =
+	Math.Pow(sideA, 2) + Math.Pow(sideB, 2) -
+	2 * sideA * sideB * Math.Cos(angleAB);
+
+float sidesSqrtSum =
+	Math.Sqrt(sideA) +
+	Math.Sqrt(sideB) +
+	Math.Sqrt(sideC);
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic11.png" style="top:42.84%; left:88.31%; width:9.07%; z-index: 10" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Coupling
 - **Coupling** describes how tightly a class or routine is related to other classes or routines
-- Coupling must be kept **loose**
-  - Modules must depend little on each other 
+- **Coupling** must be kept **loose**
+  - Modules must depend little on each other
   - All classes and routines must have
     - Small, direct, visible, and flexible relationships to other classes and routines
   - One module must be easily used by other modules, without complex dependencies
@@ -82,25 +88,65 @@
 # Loose and Tight Coupling
 - **Loose Coupling**
   - Easily replace old HDD
-  - Easily place this HDD to another motherboard
-- Tight Coupling
+  - Easily place this HDD to <br> another motherboard
+- **Tight Coupling**
   - Where is the video adapter?
-  - Can you change the video controller on this MB?
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:47.25%; left:70.17%; width:31.74%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:14.05%; left:70.17%; width:31.74%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:11.40%; left:96.37%; width:9.07%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:45.46%; left:96.37%; width:9.14%; z-index:-1" /> -->
+  - Can you change the video <br> controller on this MB?
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic12.png" style="top:47.25%; left:64.17%; width:25.74%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:14.05%; left:64.17%; width:25.74%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic14.png" style="top:6.40%; left:85.37%; width:9.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic15.png" style="top:42.46%; left:85.37%; width:9.14%; z-index:-1" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Loose Coupling – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:12.34%; left:92.49%; width:9.07%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:9.34%; left:89.49%; width:9.07%; z-index:10" /> -->
+
+```cs
+class Report
+{
+  public bool LoadFromFile(string fileName) {…}
+  public bool SaveToFile(string fileName) {…}
+}
+class Printer
+{
+  public static void Print(Report report) {…}
+}
+class Program
+{    
+  static void Main()
+  {
+    Report myReport = new Report();          
+    myReport.LoadFromFile("C:\\DailyReport.rep");
+    Printer.Print(myReport);
+  }
+}
+```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Tight Coupling – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:13.22%; left:93.57%; width:9.14%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic17.png" style="top:10.22%; left:88.57%; width:9.14%; z-index:10" /> -->
+
+```cs
+class MathParams
+{
+  public static double operand;
+  public static double result;
+}
+class MathUtil
+{
+  public static void Sqrt()
+  {
+    MathParams.result = CalcSqrt(MathParams.operand);
+  }
+}
+…
+MathParams.operand = 64;
+MathUtil.Sqrt();
+Console.WriteLine(MathParams.result);
+```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Inheritance
@@ -120,14 +166,14 @@
   - Structures cannot be inherited, only classes
   - No multiple inheritance is supported
   - Only multiple interface implementations
-- In **JS**inheritance is supported indirectly
+- In **JS** inheritance is supported indirectly
   - Several ways to implement inheritance
   - Multiple inheritance is not supported
   - There are no interfaces (JS is typeless language)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Polymorphism 
+# Polymorphism
 - **Polymorphism** is a principal concept in OOP
 - The ability to handle the objects of a specific class as instances of its parent class
   - To call abstract functionality
@@ -140,9 +186,9 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Polymorphism in C# and JS
 - In C# polymorphism is implemented through:
-  - Virtual methods (**virtual**) 
-  - Abstract methods (**abstract**)
-  - Interfaces methods (**interface**)
+  - Virtual methods (`virtual`)
+  - Abstract methods (`abstract`)
+  - Interfaces methods (`interface`)
 - In C# **override** overrides a virtual method
 - In JavaScript **all methods are virtual**
   - The child class can just "override" any method from any object
@@ -151,20 +197,37 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Polymorphism – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:64.35%; left:91.43%; width:9.07%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:9.35%; left:86.43%; width:9.07%; z-index:10" /> -->
 
-
+```cs
+public class Person
+{
+  public virtual void PrintName() {
+    Console.Write("I am a person.");
+  }
+}
+public class Student : Person
+{
+  public override void PrintName() {
+    Console.Write("I am a student. " + base.PrintName());
+  }
+}
+public class Trainer : Person
+{
+  public override void PrintName() {
+    Console.Write("I am a trainer.");
+  }
+}
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # High-Quality Classes
 ## How to Design High-Quality Classes? Abstraction, Cohesion and Coupling
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic19.png" style="top:12.55%; left:40.23%; width:29.09%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# High-Quality Classes: Abstraction
+<!-- attr: { id:'hqclasses', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="hqclasses"></a> High-Quality Classes: Abstraction
 - Present a consistent level of **abstraction** in the class contract (publicly visible members)
   - What abstraction the class is implementing?
   - Does it represent only one thing?
@@ -175,67 +238,109 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Good Abstraction – _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic20.png" style="top:13.35%; left:97.31%; width:9.07%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic20.png" style="top:9.35%; left:86.31%; width:9.07%; z-index:10" /> -->
+
+```cs
+public class Font
+{
+   public string Name { get; set; }
+   public float SizeInPoints { get; set; }
+   public FontStyle Style { get; set; }
+   public Font(
+      string name, float sizeInPoints, FontStyle style)
+   {
+      this.Name = name;
+      this.SizeInPoints = sizeInPoints;
+      this.Style = style;
+   }
+   public void DrawString(DrawingSurface surface,
+      string str, int x, int y) { … }
+   public Size MeasureString(string str) { … }
+}
+```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Bad Abstraction – _Example_
-<div class="fragment balloon" style="top:15.13%; left:50.34%; width:41.43%">Does this class really represents a "program"? Is this name good?</div>
-<div class="fragment balloon" style="top:61.01%; left:73.36%; width:27.33%">Does this class really have a single purpose?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:9.75%; left:99.78%; width:9.14%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic21.png" style="top:10.35%; left:88.78%; width:9.14%; z-index:10" /> -->
+
+```cs
+public class Program
+{
+  public string title;
+  public int size;
+  public Color color;
+  public void InitializeCommandStack();
+  public void PushCommand(Command command);
+  public Command PopCommand();
+  public void ShutdownCommandStack();
+  public void InitializeReportFormatting();
+  public void FormatReport(Report report);
+  public void PrintReport(Report report);
+  public void InitializeGlobalData();
+  public void ShutdownGlobalData();
+}
+```
+
+<div class="fragment balloon" style="top:18.13%; left:39.34%; width:41.43%">Does this class really represent a "program"? Is this name good?</div>
+<div class="fragment balloon" style="top:61.01%; left:73.36%; width:27.33%">Does this class really have a single purpose?</div>
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Establishing Good Abstraction
-- Define operations along with their opposites, e.g.
-  - **Open()** and **Close()**
-- Move unrelated methods in another class, e.g.
-  - In class **Employee** if you need to calculate **Age** by given **DateOfBirth**
-  - Create а static method **CalcAgeByBirthDate(…)** in a separate class **DateUtils**
+- Define operations along with their opposites
+  - _Example:_ `Open()` and `Close()`
+- Move unrelated methods in another class
+  - _Example:_ In class `Employee` if you need to calculate **Age** by given **DateOfBirth**, create а static method `CalcAgeByBirthDate(…)` in a separate class
 - Group related methods intro a single class
 - Does the class name correspond to the class content?
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+<!--# Establishing Good Abstraction-->
 - Beware of breaking the interface abstraction due to evolution
   - Don't add public members inconsistent with abstraction
   - _Example_: in class called **Employee** at some time we add method for accessing the DB with SQL
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:52.01%; left:93.57%; width:9.14%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic22.png" style="top:57.00%; left:88.57%; width:9.14%; z-index:10" /> -->
+
+```cs
+{
+  public string FirstName { get; set; }
+  public string LastName; { get; set; }
+  …
+  public SqlCommand FindByPrimaryKeySqlCommand(int id);
+}
+```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Encapsulation
 - Minimize visibility of classes and members
-  - In C# start from **private** and move to **internal**, **protected** and **public** if required
+  - In C# start from `private` and move to `internal`, `protected` and `public` if required
 - Classes should hide their implementation details
   - A principle called **encapsulation** in OOP
-  - Anything which is not part of the class interface should be declared **private**
+  - Anything which is not part of the class interface should be declared `private`
   - Classes with good encapsulated classes are: less complex, easier to maintain, more loosely coupled
-- Classes should keep their state clean &rarr; throw an exception if invalid data is being assigned
+- Classes should keep their state **clean**
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
-- Never declare fields public (except constants)
+<!--# Encapsulation-->
+- Never declare fields `public` (except constants)
   - Use properties / methods to access the fields
-- Don't put private implementation details in the public interface
-  - All public members should be consistent with the abstraction represented by the class
-- Don't make a method public just because it calls only public methods
+- Don't put private implementation details in the `public` interface
+  - All `public` members should be consistent with the abstraction represented by the class
+- Don't make a method `public` just because it calls only `public` methods
 - Don't make assumptions about how the class will be used or will not be used
 
-
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+<!--# Encapsulation-->
 - Don't violate encapsulation semantically!
   - Don't rely on non-documented internal behavior or side effects
-  - Wrong example: 
-    - Skip calling ConnectToDB() because you just called FindEmployeeById() which should open connection
+  - Wrong example:
+    - Skip calling `ConnectToDB()` because you just called `FindEmployeeById()` which should open connection
   - Another wrong example:
-    - Use String.Empty instead of **Titles.NoTitle** because you know both values are the same
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic23.png" style="top:33.83%; left:101.78%; width:6.91%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:54.82%; left:101.78%; width:6.91%; z-index:-1" /> -->
-
+    - Use `String.Empty` instead of `Titles.NoTitle` because you know both values are the same
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Inheritance or Containment?
@@ -251,7 +356,7 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Inheritance
 - Don't hide methods in a subclass
-  - _Example_: if the class **Timer** has private method **Start()**, don't define **Start()** in **AtomTimer**
+  - _Example_: if the class `Timer` has private method `Start()`, don't define `Start()` in `AtomTimer`
 - Move common interfaces, data, and behavior as high as possible in the inheritance tree
   - This maximizes the code reuse
 - Be suspicious of base classes of which there is only one derived class
@@ -259,21 +364,34 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
-- Be suspicious of classes that override a routine and **do nothing**inside
+<!-- # Inheritance -->
+- Be suspicious of classes that override a routine and **do nothing** inside
   - Is the overridden routine used correctly?
-- Avoid **deep inheritance**trees
+- Avoid **deep inheritance** trees
   - Don't create more than 6 levels of inheritance
 - Avoid using a base class’s protected data fields in a derived class
   - Provide protected accessor methods or properties instead
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+<!-- # Inheritance -->
 - Prefer inheritance to extensive type checking:
-- Consider inheriting **Circle** and **Square** from **Shape** and override the abstract action **Draw()**
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic25.png" style="top:47.00%; left:91.63%; width:9.14%; z-index:-1" /> -->
+- Consider inheriting `Circle` and `Square` from `Shape` and override the abstract action `Draw()`
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic25.png" style="top:35.60%; left:88.63%; width:9.14%; z-index:10" /> -->
+
+```cs
+switch (shape.Type)
+{
+  case Shape.Circle:
+    shape.DrawCircle();
+    break;
+  case Shape.Square:
+    shape.DrawSquare();
+    break;
+  ...
+}
+```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Class Methods and Data
@@ -300,9 +418,9 @@
 # Use Design Patterns
 - Use private constructor to prohibit direct class instantiation
 - Use design patterns for common design situations
-  - **Creational patterns**like Singleton, Factory Method, Abstract Factory
-  - **Structural patterns**like Adapter, Bridge, Composite, Decorator, Façade
-  - **Behavioral patterns**like Command, Iterator, Observer, Strategy, Template Method
+  - **Creational patterns** like Singleton, Factory Method, Abstract Factory
+  - **Structural patterns** like Adapter, Bridge, Composite, Decorator, Façade
+  - **Behavioral patterns** like Command, Iterator, Observer, Strategy, Template Method
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -319,7 +437,7 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+<!-- # Top Reasons to Create Class -->
 - Hide global data
   - Work through methods
 - Group variables that are used together
@@ -335,49 +453,115 @@
 # Namespaces
 - Group related classes together in namespaces
 - Follow consistent naming convention
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic26.png" style="top:27.08%; left:93.57%; width:9.07%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic26.png" style="top:24.08%; left:88.57%; width:9.07%; z-index:19" /> -->
 
+```cs
+namespace Utils
+{
+  class MathUtils { … }
+  class StringUtils { … }
+}
 
+namespace DataAccessLayer
+{
+  class GenericDAO<Key, Entity> { … }
+  class EmployeeDAO<int, Employee> { … }
+  class AddressDAO<int, Address> { … }
+}
+```
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Typical Mistakes to Avoid
-## Lessons Learned from theOOP Exam at Telerik Software Academy
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic27.png" style="top:11.46%; left:31.05%; width:46.83%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic28.png" style="top:32.62%; left:44.83%; width:32.94%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic29.png" style="top:4.41%; left:58.01%; width:29.06%; z-index:-1" /> -->
+## Lessons Learned from the OOP Exam at Telerik Software Academy
 
+<!-- attr: { id:'mistakes', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="mistakes"></a> Plural Used for a Class Name
+- **Never use plural in class names** unless they hold some kind of collection!
+
+```cs
+public class Teachers : ITeacher
+{
+  public string Name { get; set; }
+  public List<ICourse> Courses { get; set; }
+}
+```
+
+```cs
+public class GameFieldConstants
+{
+  public const int MIN_X = 100;
+  public const int MAX_X = 700;
+}
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:52.40%; left:88.07%; width:9.07%; z-index:10" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic31.png" style="top:25.55%; left:88.08%; width:9.14%; z-index:10" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Plural Used for a Class Name
-- **Never use plural in class****names**unless they hold some kind of collection!
-- Bad example:
-- Good example:
-<div class="fragment balloon" style="top:19.00%; left:53.03%; width:43.20%">Singular: **Teacher** (a single teacher, not several).</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic30.png" style="top:58.40%; left:93.07%; width:9.07%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic31.png" style="top:31.55%; left:93.08%; width:9.14%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Throwing an Exceptionwithout Parameters
+# Throwing an Exception <br> Without Parameters
 - Don't throw exception without parameters:
-<div class="fragment balloon" style="top:41.17%; left:71.40%; width:23.80%">Which parameter is **null** here?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:25.24%; left:99.78%; width:7.37%; z-index:-1" /> -->
 
+```cs
+public ICourse CreateCourse(string name, string town)
+{
+  if (name == null)
+  {
+    throw new ArgumentNullException();
+  }
+  if (town == null)
+  {
+    throw new ArgumentNullException();
+  }
+  return new Course(name, town);
+}
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic32.png" style="top:27.55%; left:89.08%; width:9.14%; z-index:10" /> -->
+<div class="fragment balloon" style="top:51.17%; left:71.40%; width:23.80%">Which parameter is **null** here?</div>
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Parameters Checked in the Getter
 - Check for invalid data in the **setters** and **constructors**, not in the getter!
-<div class="fragment balloon" style="top:29.46%; left:58.18%; width:25.52%">Put this check in the setter!</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic33.png" style="top:23.48%; left:96.37%; width:9.14%; z-index:-1" /> -->
 
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic33.png" style="top:34.48%; left:88.37%; width:9.14%; z-index:10" /> -->
+
+```cs
+public string Town
+{
+   get
+   {
+      if (string.IsNullOrWhiteSpace(this.town))
+         throw new ArgumentNullException();
+
+      return this.town;
+   }
+   set { this.town = value; }
+}
+```
+
+<div class="fragment balloon" style="top:44.46%; left:53.18%; width:25.52%">Put this check in the setter!</div>
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Missing this for Local Members
 - Always use **this.XXX** instead of **XXX** to access members within the class:
-<div class="fragment balloon" style="top:54.23%; left:40.55%; width:27.96%">Use **this.Name**</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic34.png" style="top:24.31%; left:96.03%; width:9.14%; z-index:-1" /> -->
+
+```cs
+public class Course
+{
+  public string Name { get; set; }
+
+  public Course(string name)
+  {
+    Name = name;
+  }
+}
+```
+
+<div class="fragment balloon" style="top:58.73%; left:34.55%; width:27.96%">Use **this.Name**</div>
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic34.png" style="top:25.31%; left:89.03%; width:9.14%; z-index:10" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -385,103 +569,174 @@
 - Use **null** when a value is missing, not **0** or **""**
   - Make a field / property nullable to access **null** values or just disallow missing values
 - Bad example:
+```cs
+Teacher teacher = new Teacher("");
+```
 - Correct alternatives:
-<div class="fragment balloon" style="top:44.91%; left:67.88%; width:33.50%">Empty name is very bad idea! Use **null**.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic35.png" style="top:61.18%; left:97.00%; width:8.46%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic36.png" style="top:36.76%; left:97.40%; width:8.52%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic37.png" style="top:52.39%; left:97.05%; width:8.46%; z-index:-1" /> -->
+```cs
+Teacher teacher = new Teacher();
+```
+```cs
+Teacher teacher = new Teacher(null);
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic36.png" style="top:40.76%; left:89.40%; width:8.52%; z-index:10" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic37.png" style="top:62.39%; left:89.05%; width:8.46%; z-index:10" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic35.png" style="top:73.18%; left:89.00%; width:8.46%; z-index:10" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Magic Numbers in the Classes
 - Don't use "**magic**" numbers
   - Especially when the class has members related to those numbers:
-<div class="fragment balloon" style="top:52.11%; left:49.78%; width:51.60%">This if statement is very wrong. **4** is the size of the **Wolf**, which has a **Size** property inherited from **Animal**. Why not use **this.Size** instead of **4**?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic38.png" style="top:30.85%; left:97.31%; width:9.14%; z-index:-1" /> -->
 
+```cs
+public class Wolf : Animal
+{
+  …
+  bool TryEatAnimal(Animal animal)
+  {
+     if (animal.Size <= 4)
+     {
+       return true;
+     }
+  }
+}
+```
+
+<div class="fragment balloon" style="top:72.11%; left:49.78%; width:51.60%">This if statement is very wrong. **4** is the size of the **Wolf**, which has a **Size** property inherited from **Animal**. Why not use **this.Size** instead of **4**?</div>
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic38.png" style="top:30.85%; left:88.31%; width:9.14%; z-index:10" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Base Constructor Not Called
 - Call the base constructor to **reuse** the object's state initialization code:
-<div class="fragment balloon" style="top:46.12%; left:68.76%; width:26.45%">**: base (name)**</div>
-<div class="fragment balloon" style="top:64.56%; left:46.97%; width:35.26%">Call the base constructor instead!</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic39.png" style="top:21.80%; left:96.03%; width:9.14%; z-index:-1" /> -->
 
+```cs
+public class Course
+{
+  public string Name { get; set; }
+  public Course(string name)
+  { this.Name = name; }
+}
+public class LocalCourse : Course
+{
+  public string Lab { get; set; }
+  public Course(string name, string lab)
+  {
+    this.Name = name;
+    this.Lab = lab;
+  }
+}
+```
+
+<div class="fragment balloon" style="top:71.12%; left:64.76%; width:26.45%">**: base (name)**</div>
+<div class="fragment balloon" style="top:79.56%; left:41.97%; width:35.26%">Call the base constructor instead!</div>
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic39.png" style="top:26.80%; left:88.03%; width:9.14%; z-index:10" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Repeating Code in theBase and Child Classes
+# Repeating Code in the <br> Base and Child Classes
 - Never **copy-paste** the code of the base in the inherited class
-<div class="fragment balloon" style="top:49.95%; left:51.13%; width:48.12%">Why are these fields duplicated and not inherited?</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic40.png" style="top:27.53%; left:96.03%; width:9.14%; z-index:-1" /> -->
 
+```cs
+public class Course
+{
+  public string Name { get; set; }
+  public ITeacher Teacher { get; set; }
+}
+public class LocalCourse
+{
+  public string Name { get; set; }
+  public ITeacher Teacher { get; set; }
+  public string Lab { get; set; }
+}
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic40.png" style="top:36.53%; left:88.03%; width:9.14%; z-index:10" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Broken Encapsulation through a Parameterless Constructor
 - Be careful to keep fields well encapsulated
-<div class="fragment balloon" style="top:61.75%; left:50.25%; width:37.91%">Breaks encapsulation: **Name** & **Teacher** can be left **null**.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic41.png" style="top:24.64%; left:94.51%; width:9.14%; z-index:-1" /> -->
+
+```cs
+public class Course
+{
+  public string Name { get; private set; }
+  public ITeacher Teacher { get; private set; }
+
+  public Course(string name, ITeacher teacher)
+  {
+    if (name == null) ArgumentNullException("name");
+    if (teacher == null) ArgumentNullException("teacher");
+    this.Name = name;
+    this.Teacher = teacher;
+  }
+
+  public Course() { }
+}
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic41.png" style="top:28.64%; left:88.51%; width:9.14%; z-index:10" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Coupling the Base Classwith Its Child Classes
-- Base class should **never** know about its children!
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic42.png" style="top:24.68%; left:92.63%; width:9.14%; z-index:-1" /> -->
+# Coupling the Base Class <br> With Its Child Classes
+- A class should **never** know about its children!
 
+```cs
+public class Course
+{
+  public override string ToString()
+  {
+    if (this is ILocalCourse)
+    {
+      return "Lab = " + ((ILocalCourse)this).Lab;
+    }
+    if (this is IOffsiteCourse)
+    {
+      return "Town = " + ((IOffsiteCourse)this).Town;
+    }
+    ...
+  }
+}
+```
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic42.png" style="top:28.68%; left:88.63%; width:9.14%; z-index:10" /> -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Hidden Interpretation of Base Class as Its Specific Child Class
 - Don't define **IEnumerable<T>** fields and use them as **List<T>** (broken abstraction)
-<div class="fragment balloon" style="top:54.71%; left:59.26%; width:29.53%">Bad practice: hidden **List<T>**</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic43.png" style="top:28.07%; left:96.02%; width:9.14%; z-index:-1" /> -->
 
+```cs
+public class Container<T>
+{
+  public IEnumerable<T> Items { get; }
+  public Container()
+  {
+    this.Items = new List<T>();
+  }
+  public void AddItem (T item)
+  {
+    (this.Items as List<T>).Add(item);
+  }
+}
+```
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic43.png" style="top:36.87%; left:88.63%; width:9.14%; z-index:10" /> -->
 
-- Use **List<T>** in the field and return it where **IEnumerable<T>** is required:
-<div class="fragment balloon" style="top:55.90%; left:58.51%; width:35.89%">This partially breaks encapsulation. Think about **cloning** to keep your items safe.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic44.png" style="top:26.96%; left:95.38%; width:9.07%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Repeating Code Not MovedUpper in the Class Hierarchy
-<div class="fragment balloon" style="top:41.40%; left:71.40%; width:24.68%">Repeating code</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic45.png" style="top:14.99%; left:97.31%; width:9.14%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
-- When overriding methods, call the base method if you need its functionality, **don't copy-paste** it!
-<div class="fragment balloon" style="top:28.29%; left:71.40%; width:24.68%">Repeating code</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic46.png" style="top:14.09%; left:97.31%; width:9.14%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Move the Repeating Code inUpper in the Class Hierarchy
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic47.png" style="top:16.05%; left:99.50%; width:9.07%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic48.png" style="top:14.99%; left:99.50%; width:9.07%; z-index:-1" /> -->
-
-
-
+<!-- section start -->
+<!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
+<!-- # High Quallity Classes
+## Questions? -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - csharpfundamentals.telerik.com
+    - [Unit Testing Course](http://academy.telerik.com/student-courses/programming/high-quality-code/about)
   - Telerik Software Academy
-    - academy.telerik.com
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
+    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic49.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic50.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic51.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic52.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
-
-
-
-
+    - [forums.academy.telerik.com](forums.academy.telerik.com)
