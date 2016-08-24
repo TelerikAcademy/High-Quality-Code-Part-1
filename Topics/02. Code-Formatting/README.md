@@ -121,6 +121,9 @@ for ( var i=0; i<MaxElements; i++ )
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Why are Brackets <br /> Obligatory?
 ```cs
+x = 3+4 * 2+7;
+```
+```cs
 x = (3 + 4) * (2 + 7);
 ```
 
@@ -173,16 +176,24 @@ public class Indentation_Example_
 <!-- attr: { id:'commonmistakes', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="commonmistakes"></a> Brackets in Methods Declaration
 - Brackets in the method declaration should be formatted as follows:
-- Don't  use spaces between the brackets:
-- The same applies for **if**-conditions and **for**-loops:
 
 ```cs
 private static ulong CalcFactorial(uint num)
 ```
 
+- Don't  use spaces between the brackets:
+
+```cs
+private static ulong CalcFactorial ( uint num )
+private static ulong CalcFactorial (uint num)
+```
+
+- The same applies for **if**-conditions and **for**-loops:
 
 ```cs
 if (condition) { … }
+
+for (int i = 0; i < 10; i++) { … }
 ```
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic13.png" style="top:21.79%; left:93.83%; width:9.45%; z-index:-1" /> -->
@@ -193,18 +204,18 @@ if (condition) { … }
 # Separating Parameters
 - Separate method parameters by comma followed by a space
   - Don't put space before the comma
-  - _Examples_:
-  - Incorrect examples:
-
+  - Correct examples:
 ```cs
-private void RegisterUser(string username, string password)
-```
-
-
-```cs
+private void RegisterUser(string username, string password);
 RegisterUser("academy", "s3cr3t!p@ssw0rd");
 ```
 
+  - Incorrect examples:
+```cs
+private void RegisterUser(string username,string password)
+private void RegisterUser(string username ,string password)
+private void RegisterUser(string username , string password)
+```
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -271,7 +282,7 @@ public class Dog
 # Formatting Types <br /> – _Example in C#_
 
 ```cs
-    // Properties
+		// Properties
     public string Name { get; set; }
 
     // Methods
@@ -302,9 +313,24 @@ public class Dog
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Conditional Statements and Loops Formatting <br/> – _Examples in C#_
+
+
+- Correct examples:
+```cs
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("i={0}", i);
+}
+```
+
 - Incorrect examples:
 
 ```cs
+for (int i = 0; i < 10; i++)
+  Console.WriteLine("i={0}", i);
+
+for (int i = 0; i < 10; i++) Console.WriteLine("i={0}", i);
+
 for (int i = 0; i < 10;) {
     Console.WriteLine("i={0}", i);  i++; Console.WriteLine();
 }
@@ -372,23 +398,69 @@ for (int i = 0; i < 10;)
 - _Examples_:
 
 ```cs
+if (matrix[x, y] == 0 || matrix[x-1, y] == 0 ||
+    matrix[x+1, y] == 0 || matrix[x, y-1] == 0 ||
+    matrix[x, y+1] == 0)
+{ …
+
 public void GetAllAbstractPaintings()
 {
 	   var paintings = this.Database.Paintings.All()
-		 	.Where(x => x.PaintingStyle == PaintingStyleType.Abstract)
-			 .Select(x => x.OriginalPaintingPath).ToList();
-
-	   return this.View(paintings);
+		 .Where(x => x.PaintingStyle == PaintingStyleType.Abstract)
+		 .OrderBy(x => x.Price)
+		 .ThenBy(x => x.DateCreated)
+		 .Select(x => x.OriginalPaintingPath)
+		 .ToList();
 }
+```  
+
+# Incorrect ways to break long lines (in C#_)
+
+```cs
+if (matrix[x, y] == 0 || matrix[x-1, y] ==
+  0 || matrix[x+1, y] == 0 || matrix[x,
+  y-1] == 0 || matrix[x, y+1] == 0)
+{ …
 ```
+
+```cs
+if (matrix[x, y] == 0 || matrix[x-1, y] == 0 ||
+      matrix[x+1, y] == 0 || matrix[x, y-1] == 0 ||
+      matrix[x, y+1] == 0)
+{ …
+```
+
+```cs
+DictionaryEntry<K, V> newEntry
+  = new DictionaryEntry<K, V>(oldEntry
+  .Key, oldEntry.Value);
+```
+
 
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Breaking Long Lines <br/> in C# and JavaScript
 - In C# use single [Tab] after breaking a long line:
+
+```cs
+if (matrix[x, y] == 0 || matrix[x-1, y] == 0 ||
+    matrix[x+1, y] == 0 || matrix[x, y-1] == 0 ||
+    matrix[x, y+1] == 0)
+{
+    matrix[x, y] == 1;
+}
+```
+
 - In JavaScript use double [Tab] in the carried long lines:
 
+```cs
+if (matrix[x, y] == 0 || matrix[x-1, y] == 0 ||
+       matrix[x+1, y] == 0 || matrix[x, y-1] == 0 ||
+       matrix[x, y+1] == 0) {
+    matrix[x, y] == 1;
+}
+```
 
 <!-- attr: { id:'alignments', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="alignments"></a> Alignments
