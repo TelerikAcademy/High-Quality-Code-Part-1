@@ -34,7 +34,22 @@
 #   Code Formatting
 ## Why do we need it? How can white spaces and parenthesis help us?
 
+```cs
+	public   const    string                    FILE_NAME
+	="example.bin"  ;  static void Main   (             ){
+	FileStream   fs=     new FileStream(FILE_NAME,FileMode
+	.   CreateNew)   // Create the writer      for data  .
+	;BinaryWriter w=new BinaryWriter     (    fs      );// Write data to                               Test.data.
+	for(  int i=0;i<11;i++){w.Write((int)i);}w   .Close();
+	fs   .   Close  (  ) // Create the reader    for data.
+	;fs=new FileStream(FILE_NAME,FileMode.            Open
+	,  FileAccess.Read)     ;BinaryReader                r
+	= new BinaryReader(fs);  // Read data from  Test.data.
+	 for (int i = 0; i < 11; i++){ Console      .WriteLine
+	(r.ReadInt32                                       ())
+	;}r       .    Close   (   );  fs .  Close  (  )  ;  }
 
+```
 
 
 
@@ -95,7 +110,16 @@ for (var i = 0; i < MaxElements; i++)
 }
 ```
 
+```cs
+// swap left and right elements for whole array
+for ( var i=0; i<MaxElements; i++ )
+    leftElement = left[i];
+    left[i] = right[i];
+    right[i] = leftElement;
+```
 
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+# Why are Brackets <br /> Obligatory?
 ```cs
 x = (3 + 4) * (2 + 7);
 ```
@@ -295,6 +319,25 @@ for (int i = 0; i < 10;) {
 # Using Empty Lines
 - Empty lines are used to separate logically unrelated parts of the source code
   - Don't put empty lines when not needed!
+
+```cs
+public static void PrintList(List<int> ints)
+{
+    Console.Write("{ ");
+    foreach (int item in ints)
+    {
+        Console.Write(item);
+        Console.Write(" ");
+    }
+
+    Console.WriteLine("}");
+}
+
+static void Main()
+{
+    // …
+```   
+
 <div class="fragment balloon" style="top:48%; left:58.18%; width:26.86%">An empty line separates the methods</div>
 <div class="fragment balloon" style="top:60%; left:58.18%; width:39.67%">An empty line after the foreach block</div>
 
@@ -409,6 +452,6 @@ public void NotCool()
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - forums.academy.telerik.com  
-		
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:37%; left:60%; width:35%; z-index:-1; border: 1px solid white; border-radius: 5px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:19.00%; left:82%; width:13.01%; z-index:-1" /> -->

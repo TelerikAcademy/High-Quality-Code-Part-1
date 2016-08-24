@@ -9,7 +9,7 @@ namespace High.Quality.Code.BadExample
     using System.Text;
     using System.Threading.Tasks;
 
-    public class Program
+    public class Bunnies
     {
         static void Main(string[] args)
         {
@@ -40,21 +40,21 @@ new Bunny { Age= 2, Name = "Rasputin" , FurType = FurType.ALittleFluffy },
             };
 
 
-            var 
+            var
 consoleWriter =
                 // Introduce all bunnies
-                new ConsoleWriter(); 
+                new ConsoleWriter();
 foreach (
-                var bunny 
-                
-                        in 
-                
+                var bunny
+
+                        in
+
                 bunnies){ bunny.Introduce(consoleWriter); } var  // Create bunnies text file
-                bunniesFilePath 
-                = 
-                @"..\..\bunnies.txt"; var 
-                fileStream 
-                = 
+                bunniesFilePath
+                =
+                @"..\..\bunnies.txt"; var
+                fileStream
+                =
                 File.Create(bunniesFilePath); fileStream.Close();
 
             // Save bunnies to a text file
@@ -94,16 +94,16 @@ foreach (
         NotFluffy,ALittleFluffy,Fluffy,FluffyToTheLimit
     }
 
-    public 
-        interface 
+    public
+        interface
             IWriter {
         void Write ( string message );
         void WriteLine ( string message );
     }
 
-    public 
-        class 
-            ConsoleWriter : 
+    public
+        class
+            ConsoleWriter :
             IWriter
     {
         public void Write(string message)

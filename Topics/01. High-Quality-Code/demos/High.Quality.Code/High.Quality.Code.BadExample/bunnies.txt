@@ -1,0 +1,28 @@
+Bunny name: Bun
+Bunny age: 1
+Bunny fur: Not Fluffy
+
+Bunny name: Bunne
+Bunny age: 2
+Bunny fur: A Little Fluffy
+
+Bunny name: Bunnnee
+Bunny age: 3
+Bunny fur: A Little Fluffy
+
+Bunny name: Bunnneee
+Bunny age: 1
+Bunny fur: A Little Fluffy
+
+Bunny name: Bunny
+Bunny age: 3
+Bunny fur: Fluffy
+
+Bunny name: Bunnyy
+Bunny age: 3
+Bunny fur: Fluffy
+
+Bunny name: Bunnaaa
+Bunny age: 4
+Bunny fur: Fluffy To The Limit
+
