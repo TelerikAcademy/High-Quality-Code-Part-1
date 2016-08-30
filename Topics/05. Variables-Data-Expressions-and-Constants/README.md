@@ -4,7 +4,7 @@
 ## Correctly Organizing Data and Expressions
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic02.png" style="top:65%; left:80%; width:17.08%; z-index:-1; border-radius:10px;" /> -->
 <div class="signature">
-	<p class="signature-course"High-Quality Code - Part 1</p>
+	<p class="signature-course">High-Quality Code - Part 1</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://academy.telerik.com " class="signature-link">https://academy.telerik.com </a>
 </div>
