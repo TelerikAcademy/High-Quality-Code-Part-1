@@ -110,7 +110,7 @@ for (int i = 0; i < array.GetLength(0); i++)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-
+<!-- # Variable Initialization -->
 - Check the need for reinitialization
   - Make sure that the initialization statement is inside the part of the code that’s repeated
 - Check input parameters for validity
@@ -173,7 +173,7 @@ enum ResourceAccessMode { Read, Write, ReadWrite }
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Retuning Result from a Method
+# Returning Result from a Method
 - Always assign the result of a method in some variable before returning it. Benefits:
   - Improved code **readability**
     - The returned value has self-documenting name
@@ -634,7 +634,7 @@ Int32.MaxValue, String.Empty, InvariantCulture
 - C# and Java / JavaScript conventions
   - **i** and **j** are integer indexes
   - Constants are in **ALL_CAPS** separated by underscores (sometimes **PascalCase** in C#)
-  - Variable and method names use uppercase in C# and lowercase in JS for the first word
+  - Method names use uppercase in C# and lowercase in JS for the first word
   - The underscore **_** is not used within names
     - Except for names in all caps
 
@@ -655,7 +655,7 @@ Int32.MaxValue, String.Empty, InvariantCulture
 - Document short names in the code
 - Remember, names are designed for the people, who will read the code
   - Not for those who write it
-- Avoid variables with similar names, but different purpose it
+- Avoid variables with similar names, but different purpose
 
 ```cs
 UserStatus / UserCurrentStatus
@@ -767,17 +767,17 @@ public class GeometryUtils
 {
   public static double CalcCircleArea(double radius)
   {
-    double area = 3.14159206 * radius * radius;
+    double area = 3.14159265 * radius * radius;
     return area;
   }
   public static double CalcCirclePerimeter(double radius)
   {
-    double perimeter = 6.28318412 * radius;
+    double perimeter = 6.28318531 * radius;
     return perimeter;
   }
   public static double CalcElipseArea(double axis1, double axis2)
   {
-    double area = 3.14159206 * axis1 * axis2;
+    double area = 3.14159265 * axis1 * axis2;
     return area;
   }
 }
@@ -791,7 +791,7 @@ public class GeometryUtils
 ```cs
 public class GeometryUtils
 {
-   public const double PI = 3.14159206;
+   public const double PI = 3.14159265;
    public static double CalcCircleArea(double radius)
    {
       double area = PI * radius * radius;

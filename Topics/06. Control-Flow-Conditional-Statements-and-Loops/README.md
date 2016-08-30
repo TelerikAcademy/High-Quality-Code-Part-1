@@ -215,7 +215,7 @@ else
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/conditional-4-1.png" style="top:20%; left:10%; width:75%; z-index:-1; border-radius:10px;" /> -->
 
 
-- Write **if** clause with a meaningful statement
+- Write `if` clause with a meaningful statement
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/conditional-4-1.png" style="top:65%; left:10%; width:75%; z-index:-1; border-radius:10px;" /> -->
 - Use meaningful boolean expressions, which read like a sentence
 
