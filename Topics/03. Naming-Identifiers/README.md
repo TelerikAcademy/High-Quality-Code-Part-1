@@ -627,7 +627,7 @@ fs.Close();
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - [HQC-Part 1 course](http://academy.telerik.com/student-courses/programming/high-quality-code/about)
+    - [HQC-Part 1 course](http://academy.telerik.com/student-courses/programming/high-quality-code-part-1/about)
   - Telerik Software Academy
     - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
