@@ -106,20 +106,21 @@ float sidesSqrtSum =
 ```cs
 class Report
 {
+  public string Content { get; set; }
   public bool LoadFromFile(string fileName) {…}
-  public bool SaveToFile(string fileName) {…}
 }
 class Printer
 {
-  public static void Print(Report report) {…}
+  public void Print(string content) {…}
 }
 class Program
 {    
   static void Main()
   {
     Report myReport = new Report();          
+    Printer myPrinter = new Printer();
     myReport.LoadFromFile("C:\\DailyReport.rep");
-    Printer.Print(myReport);
+    myPrinter.Print(myReport.Content);
   }
 }
 ```
