@@ -674,7 +674,7 @@ public void CreateXml (…)
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
-<!-- # High Quallity Methods
+<!-- # High Quality Methods
 ## Questions? -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
