@@ -726,7 +726,7 @@ public class Container<T>
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
-<!-- # High Quallity Classes
+<!-- # High Quality Classes
 ## Questions? -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
