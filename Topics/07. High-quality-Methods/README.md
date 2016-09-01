@@ -663,17 +663,6 @@ public void CreateXml (…)
 ```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Inline Routines
-- **Inline** routines provide two benefits:
-  - Abstraction
-  - Performance benefit of not creating a new routine on the stack
-- Some applications (e.g. **games**) need that optimization
-  - Used for the most frequently used routines
-  - _Example_: a short routine called 100,000 times
-- Not all languages support Inline routines
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Conclusion
 - Designing and coding routines is engineering activity
   - **There is no perfect solution**
@@ -682,7 +671,6 @@ public void CreateXml (…)
     - Evaluate the **requirements**
     - Choose the **most appropriate** solution from the available options
     - Ensure **loose coupling** / **strong cohesion**
-
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
