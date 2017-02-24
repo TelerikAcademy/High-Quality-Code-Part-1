@@ -517,13 +517,10 @@ public void NotCool()
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - csharpfundamentals.telerik.com
+    - [High Quality Code - Part 1](http://academy.telerik.com/student-courses/programming/high-quality-code-part-1/about)
   - Telerik Software Academy
-    - academy.telerik.com
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
+    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com  
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic16.png" style="top:37%; left:60%; width:35%; z-index:-1; border: 1px solid white; border-radius: 5px;" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs\pic18.png" style="top:19.00%; left:82%; width:13.01%; z-index:-1" /> -->
+    - [forums.academy.telerik.com](forums.academy.telerik.com)

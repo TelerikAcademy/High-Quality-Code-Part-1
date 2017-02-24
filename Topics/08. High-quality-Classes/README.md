@@ -732,7 +732,7 @@ public class Container<T>
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - [Unit Testing Course](http://academy.telerik.com/student-courses/programming/high-quality-code/about)
+    - [High Quality Code - Part 1](http://academy.telerik.com/student-courses/programming/high-quality-code-part-1/about)
   - Telerik Software Academy
     - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
