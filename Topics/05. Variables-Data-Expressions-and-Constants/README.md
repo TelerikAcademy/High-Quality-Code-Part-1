@@ -38,7 +38,6 @@
 # Initially Assigned <br/> Variables in C&num;
 - Static variables
 - Instance variables of class instances
-- Instance variables of initially assigned struct variables
 - Array elements
 - Value parameters
 - Reference parameters
@@ -48,7 +47,6 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Initially Unassigned <br/> Variables in C&num;
-- Instance variables of initially unassigned struct variables
 - Output parameters
   - Including the `this` variable of struct instance constructors
 - Local variables
