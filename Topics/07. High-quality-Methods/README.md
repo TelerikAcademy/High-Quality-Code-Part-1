@@ -433,7 +433,7 @@ static int Sum(int[] elements) { … }
   - This coupling is usual, do not worry too much
 
 ```cs
-static int CalcArea()
+static int CalcArea()
 {
 	return this.Width * this.Height;
 }
@@ -654,7 +654,7 @@ and return the resulting value as string
 - Use the **[Obsolete]** attribute in .NET
 
 ```cs
-[Obsolete("CreateXml() method is deprecated.
+[Obsolete("CreateXml() method is deprecated.
 	Use CreateXmlReader instead.")]
 public void CreateXml (…)
 {
