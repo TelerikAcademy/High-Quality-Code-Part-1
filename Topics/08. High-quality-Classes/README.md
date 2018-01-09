@@ -67,7 +67,7 @@ float sideC =
 
 float sidesSqrtSum =
 	Math.Sqrt(sideA) +
-	Math.Sqrt(sideB) +
+	Math.Sqrt(sideB) +
 	Math.Sqrt(sideC);
 ```
 
